@@ -43,9 +43,9 @@ $ curl 'localhost:8081/search?number=5&theword=bar'
 ```
 
 ## More information
-For more information about the API 
+- For more information about the API 
 https://random-word-api.herokuapp.com/home
-For more information about the string similarity module.
+- For more information about the string similarity module.
 https://www.npmjs.com/package/string-similarity
 
 ## Todos 
