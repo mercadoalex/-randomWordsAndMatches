@@ -47,5 +47,5 @@ https://www.npmjs.com/package/string-similarity
   Clean a lltle bit the endpoint response.
   Push the image to Docker Registry.
 ## Contact  
-Alejandro Mercado mercadoalex@gmail.com
-  
+[Alejandro Mercado] mercadoalex@gmail.com
+[amp]: <https://alexmarket.medium.com/>  
