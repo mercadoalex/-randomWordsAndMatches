@@ -3,6 +3,10 @@ A NodeJS and Express project to consume a random Word API and to find the best o
 
 ## Description
 
+I this file we are fetching a random word API 
+For testing I used Jasmine, unitl know there is only 1 spec. 
+And finally the docker is included, the internal and extrenal port defined is `8081`.
+
 ## Setup
 This project consist on a server.js main file and several modules required.
 There are two options the run this project, based on the Dockerfile provide build the Docker image with the command:
@@ -25,17 +29,13 @@ or based on the package.json you can install it using npm init, afetra that just
 ```sh
 $ node server.js
 ```
-Once the local server is running on port 8081 you can test the \search endpoint, either with the browser, 
+Once the local server is running on port `8081` you can test the \search endpoint, either with the browser, 
 http://localhost:8081/search?number=5&theword=bar
 
 or via Curl command as shown below:
 ```sh
 $ curl 'localhost:8081/search?number=5&theword=bar'
 ```
-I this file we are fetching a random word API 
-
-For testing I used Jasmine, unitl know there is only 1 spec. 
-And finally the docker is included, the internal and extrenal port defined is 8081.
 
 ## More information
 For more information about the API 
