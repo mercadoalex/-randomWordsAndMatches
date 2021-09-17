@@ -7,7 +7,7 @@ The server.js is fetching a random word API then with a macthing word passed via
 A single enpoint called "\search" that needs two parameters, the amount of words and the word to serach for coincidences.
 A JSON and a YAML file are generated with the response.
 
-For testing purposes I used Jasmine, unitl know there is only 1 spec. 
+For testing purposes I used Jasmine, unitl now there is only 1 spec. 
 And finally the dockerfile is included, the internal and extrenal port defined is `8081`.
 
 No front-end until this point.
