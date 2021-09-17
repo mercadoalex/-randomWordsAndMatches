@@ -48,4 +48,5 @@ https://www.npmjs.com/package/string-similarity
   Push the image to Docker Registry.
 ## Contact  
 [Alejandro Mercado] mercadoalex@gmail.com [amp]
+
 [amp]: <https://alexmarket.medium.com/>  
