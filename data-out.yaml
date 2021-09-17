@@ -1,0 +1,13 @@
+title: Demo Random Word API
+config:
+  match_method: npm string-similarity
+  word: bar
+  words: subgovernments,proofed,glamourous,betake,crower
+  ratings: >-
+    [{"target":"subgovernments","rating":0},{"target":"proofed","rating":0},{"target":"glamourous","rating":0},{"target":"betake","rating":0},{"target":"crower","rating":0}]
+  bestMatch: '{"target":"subgovernments","rating":0}'
+meta:
+  author:
+    name: Alejandro Mercado
+    contact: mercadoalex@gmail.com
+    file: /Users/alex/Desktop/releai-project/server.js

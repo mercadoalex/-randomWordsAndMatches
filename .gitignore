@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+manipulaJson.js
+manipulaYAML.js
+words.json
+data.yaml
+data-dummie.yaml

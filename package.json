@@ -1,0 +1,33 @@
+{
+  "name": "releai-demo",
+  "version": "1.0.0",
+  "description": "Demo consuming an API and using containers ",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "Node",
+    "API",
+    "Espress",
+    "Docker"
+  ],
+  "author": "Alejandro Mercado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "request": "^2.88.2",
+    "similarity": "^1.2.1",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "got": "^11.8.2",
+    "jasmine": "^3.9.0",
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
