@@ -49,9 +49,9 @@ For more information about the string similarity module.
 https://www.npmjs.com/package/string-similarity
 
 ## Todos 
-  Clean a lltle bit the endpoint response.
-  Push the image to Docker Registry.
-  More Unit Testing specifications.
+  - Clean a lltle bit the endpoint response.
+  - Push the image to Docker Registry.
+  - More Unit Testing specifications.
   
 ## Contact  
 [Alejandro Mercado] mercadoalex@gmail.com 
