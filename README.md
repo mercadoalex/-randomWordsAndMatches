@@ -1,11 +1,16 @@
 # Project -randomWordsAndMatches
 A NodeJS and Express project to consume a random Word API and to find the best or worst match.
 
-## Description
+## Brief Description
 
-I this file we are fetching a random word API 
-For testing I used Jasmine, unitl know there is only 1 spec. 
-And finally the docker is included, the internal and extrenal port defined is `8081`.
+The server.js is fetching a random word API then with a macthing word passed via GET I obtain the best match.
+A single enpoint called "\search" that needs two parameters, the amount of words and the word to serach for coincidences.
+A JSON and a YAML file are generated with the response.
+
+For testing purposes I used Jasmine, unitl know there is only 1 spec. 
+And finally the dockerfile is included, the internal and extrenal port defined is `8081`.
+
+No front-end until this point.
 
 ## Setup
 This project consist on a server.js main file and several modules required.
@@ -46,7 +51,10 @@ https://www.npmjs.com/package/string-similarity
 ## Todos 
   Clean a lltle bit the endpoint response.
   Push the image to Docker Registry.
+  More Unit Testing specifications.
+  
 ## Contact  
-[Alejandro Mercado] mercadoalex@gmail.com [Medium]
+[Alejandro Mercado] mercadoalex@gmail.com 
+[Medium]
 
 [Medium]: <https://alexmarket.medium.com/>  
