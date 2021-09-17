@@ -1,17 +1,26 @@
-# -randomWordsAndMatches
+# Project -randomWordsAndMatches
 A NodeJS and Express project to consume a random Word API and to find the best or worst match.
 
+
+# SETUP
 This project consist on a server.js main file and several modules required.
-There are two options the run this project, based on the Dockerfile provide buil the Docker image with the command:
-
-
-or based on the package.json you can install it using npm init, afetra that just run node server.js.
+There are two options the run this project, based on the Dockerfile provide build the Docker image with the command:
+$ docker build . -t <your username>/node-expres-wordapi
+once the image is buitl run the container like this:
+$ docker run -p 49160:8080 -d <your username>/node-expres-wordapi
+You can get the container id
+$ docker ps
+If you need to go inside the container you can use the exec command: 
+$ docker exec -it <container id> /bin/bash
+  
+or based on the package.json you can install it using npm init, afetra that just run 
+$ node server.js
 
 Once the local server is running on port 8081 you can test the \search endpoint, either with the browser, 
 http://localhost:8081/search?number=5&theword=bar
 
 or via Curl command as shown below:
-curl 'localhost:8081/search?number=5&theword=bar'
+$ curl 'localhost:8081/search?number=5&theword=bar'
 
 I this file we are fetching a random word API 
 
@@ -24,4 +33,9 @@ https://random-word-api.herokuapp.com/home
 For more information about the string similarity module.
 https://www.npmjs.com/package/string-similarity
 
-Author: Alejandro Mercado
+Todos: 
+  Clean a lltle bit the endpoint response.
+  Push the image to Docker Registry.
+  
+Alejandro Mercado mercadoalex@gmail.com
+  
