@@ -7,6 +7,11 @@ The server.js is fetching a random word API then with a macthing word passed via
 A single enpoint called "\search" that needs two parameters, the amount of words and the word to serach for coincidences.
 A JSON and a YAML file are generated with the response.
 
+
+![The YAML file looks like this:]
+(https://github.com/mercadoalex/-randomWordsAndMatches/blob/master/yaml.png)
+
+
 For testing purposes I used Jasmine, unitl now there is only 1 spec. 
 And finally the dockerfile is included, the internal and extrenal port defined is `8081`.
 
