@@ -8,8 +8,8 @@ A single enpoint called "\search" that needs two parameters, the amount of words
 A JSON and a YAML file are generated with the response.
 
 
-![The YAML file looks like this:]
-(https://github.com/mercadoalex/-randomWordsAndMatches/blob/master/yaml.png)
+![ The YAML file looks like this]
+( https://github.com/mercadoalex/-randomWordsAndMatches/blob/master/yaml.png)
 
 
 For testing purposes I used Jasmine, unitl now there is only 1 spec. 
